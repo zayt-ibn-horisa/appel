@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: rgba(102, 110, 119, 0.651);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    position: sticky;
+    backdrop-filter: blur(10px);
+   
+}
+
+
+
+.nav__logo{
+    padding-right: 30px;
+
+}
+.nav__collection{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+.nav__item a{
+    text-decoration: none;
+    color: #2e3b86;
+}
+.active a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background: #ddd;
+}
+.Mac{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+}
+.macbook{
+    background: url("./mac_studio__c2wojtx43pw2_large.jpg") no-repeat center;
+}
+.about__photo{
+    width: 100%;
+    height: 600px;
+    background: url("./apple\ ali.png") no-repeat center/cover;
+    padding-left: 70%;
+    padding-top: 10%;
+}
+.about__get{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.ged__cart{
+    width: 50%;
+    height: 600px;
+    border: 1px solid red;
+    box-shadow: 0 0 15px black;
+}
+.ged__trade{
+    width: 50%;
+    height: 600px;
+    border: 1px solid red;
+    box-shadow: 0 0 15px black;
+}
+.learn{
+    width: 100%;
+    height: 700px;
+    border: 3px solid red;
+    box-shadow: 0 0 15px blue;
+
+}
+.blog{
+    width: 300px;
+    height: 300px;
+    background: url("./apple_tv_plus_river__fz3g2jn3adyu_large.jpg") no-repeat center/cover;
+   
+}
+.Apple{
+    background: url("./hero_iphone15pro_announce__c1coc7n3a0uq_large.jpg") no-repeat center/cover;
+   
+}
+.href{
+   font-size: 15px;
+   color: #5969b1;
+}
+
+
+.lorem{
+    margin: 20px 40px;
+    text-align: center;
+    font-size: 15px;
+}
+.Apple,p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.Apple,span{
+    color: rgb(53, 165, 165);
+}
+.text{
+    margin: 10px 0;
+}
+.item{
+    box-shadow: 0 15px 0 black;
+}
+.item h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: #ffffff;
+
+}
+.item h2{
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.item h4{
+    color: rgb(104, 91, 74);
+    padding-bottom: 20px;
+    
+}
+.rasom{
+   width: 100%;
+   height: 400px;
+   margin-top: 10px;
+   background: url("./hero_iphone15_announce__uuemlcwczn6u_large.jpg") no-repeat center/cover;
+   box-shadow: 0 0 15px black;
+   text-align: center;
+   padding-top: 40px;
+}
+.atem h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.atem h2{
+    padding-bottom: 20px;
+}
+.for{
+    display: flex;
+    gap: 10px;
+    box-shadow: 0 0 15px black;
+}
+
+.pancli{
+    width: 50%;
+    height: 600px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+    padding-top: 40px;
+    
+    
+}
+.pancli h1{
+    padding-bottom: 15px;
+}
+.pancli__photo{
+    width: 670px;
+    height: 400px;
+    margin-top: 90px;
+    background: url("./apple_pencil__ekq506kmmys2_large.jpg") no-repeat center/cover;
+
+}
+
+.ipad{
+    width: 50%;
+    height: 600px;
+    margin-top: 10px;
+    box-shadow: 0 0 15px black;
+    
+}
+.ipad__photo{
+    width: 670px;
+    height: 400px;
+    margin-top: 197px;
+    background: url("./apple_pencil__ekq506kmmys2_large.jpg") no-repeat center/cover;
+    
+    
+
+}
+
+
+
+
+
+
